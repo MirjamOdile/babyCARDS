@@ -6,7 +6,7 @@ i) a binary logistic classifier on tweets by known contrarian (1) versus convinc
 
 ii) a binary logistic classifier on documents by various sources (newspapers, twitter, facebook, blog-posts) by known contrarian (1) versus convinced (0) actors (babyCARDS).
 
-
+```
 Performance tweetyCARDS:
 
 Validation data:
@@ -32,3 +32,4 @@ Testing data (unseen twitter handles):
     accuracy                           0.83    374120
    macro avg       0.82      0.83      0.82    374120
 weighted avg       0.84      0.83      0.83    37412
+```
