@@ -24,6 +24,30 @@ Performance sentenceCARDS:
 ```
 Performance socialCARDS:
 
+Validation data:
+
+              precision    recall  f1-score   support
+
+           0       0.88      0.90      0.89    484130
+           1       0.91      0.89      0.90    547607
+
+    accuracy                           0.90   1031737
+   macro avg       0.90      0.90      0.90   1031737
+weighted avg       0.90      0.90      0.90   1031737
+
+
+
+Testing data (unseen twitter/facebook handles):
+
+              precision    recall  f1-score   support
+
+           0       0.70      0.90      0.79    166797
+           1       0.89      0.67      0.77    200079
+
+    accuracy                           0.78    366876
+   macro avg       0.79      0.79      0.78    366876
+weighted avg       0.80      0.78      0.78    366876
+
 
 ```
 ```
