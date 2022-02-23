@@ -1,8 +1,10 @@
-# Data and obsolete code
+# Data
 data/
-code/backup/
 # Trained classifiers
-#*.pkl
+*.pkl
+# Backup code
+code/backup/
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
