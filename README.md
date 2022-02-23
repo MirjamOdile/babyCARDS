@@ -14,7 +14,7 @@ iii) **socialCARDS**: a binary logistic classifier only trained twitter and face
 
 <br>
 
-Classifier performance was assessed on a **held out testing data set** containing only text from "unseen" sources, i.e. bloggers, twitter users, facebook users and newspaper articles that the classifiers have not been trained on, providing an insight into external validity.
+Classifier performance was assessed on a **held out testing data set** containing only text from "unseen" sources, i.e. bloggers, twitter accounts, facebook accounts and newspaper articles that the classifiers have not been trained on, providing an insight into external validity.
 
 <br>
 
@@ -34,7 +34,7 @@ weighted avg       0.89      0.89      0.89   1107565
 
 
 
-Testing data (unseen bloggers, twitter users, facebook users and newspaper articles):
+Testing data (unseen bloggers, twitter accounts, facebook accounts and newspaper articles):
 
               precision    recall  f1-score   support
 
@@ -63,7 +63,7 @@ weighted avg       0.80      0.80      0.80   3599254
 
 
 
-Testing data (unseen bloggers, twitter users, facebook users and newspaper articles):
+Testing data (unseen bloggers, twitter accounts, facebook accounts and newspaper articles):
 
               precision    recall  f1-score   support
 
@@ -92,7 +92,7 @@ weighted avg       0.90      0.90      0.90   1031737
 
 
 
-Testing data (unseen twitter and facebook users):
+Testing data (unseen twitter and facebook accounts):
 
               precision    recall  f1-score   support
 
