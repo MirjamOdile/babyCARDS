@@ -1,11 +1,29 @@
 # babyCARDS: Binary computer-assisted recognition of (climate change) contrarian speech
 
-This repository makes available the code to train 
+This repository makes available the code to train binary logistic classifiers to distinguish between climate change **contrarian** (1) versus **convinced** (0) written text. It has been trained on documents by know contrarian and convinced actors. Specifically, three classifiers have been trained, namely
 
-i) a binary logistic classifier on tweets by known contrarian (1) versus convinced (0) twitter users (tweetyCARDS) and 
+i) **babyCARDS**: a binary logistic classifier on complete documents by various blog-posts, twitter and facebook posts and newspaper articles,
+ii) **sentenceCARDS**: a binary logistic classifier trained on the same data as babyCARDS at the sentence level, and
+iii) **socialCARDS**: a binary logistic classifier only trained twitter and facebook posts.
 
-ii) a binary logistic classifier on documents by various sources (newspapers, twitter, facebook, blog-posts) by known contrarian (1) versus convinced (0) actors (babyCARDS).
 
+```
+Performance babyCARDS:
+
+
+```
+
+```
+Performance sentenceCARDS:
+
+
+```
+
+```
+Performance socialCARDS:
+
+
+```
 ```
 Performance tweetyCARDS:
 
