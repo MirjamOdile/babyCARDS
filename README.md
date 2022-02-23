@@ -12,14 +12,60 @@ iii) **socialCARDS**: a binary logistic classifier only trained twitter and face
 ```
 Performance babyCARDS:
 
+Validation data:
 
+              precision    recall  f1-score   support
+
+           0       0.87      0.90      0.88    509797
+           1       0.91      0.88      0.90    597768
+
+    accuracy                           0.89   1107565
+   macro avg       0.89      0.89      0.89   1107565
+weighted avg       0.89      0.89      0.89   1107565
+
+
+
+Testing data (unseen handles/news articles):
+
+              precision    recall  f1-score   support
+
+           0       0.71      0.90      0.80    180897
+           1       0.90      0.70      0.79    221956
+
+    accuracy                           0.79    402853
+   macro avg       0.80      0.80      0.79    402853
+weighted avg       0.81      0.79      0.79    402853
 ```
+
 
 ```
 Performance sentenceCARDS:
 
+Validation data:
 
+              precision    recall  f1-score   support
+
+           0       0.74      0.76      0.75   1437268
+           1       0.84      0.83      0.83   2161986
+
+    accuracy                           0.80   3599254
+   macro avg       0.79      0.79      0.79   3599254
+weighted avg       0.80      0.80      0.80   3599254
+
+
+
+Testing data (unseen handles/news articles):
+
+              precision    recall  f1-score   support
+
+           0       0.69      0.79      0.74    757918
+           1       0.84      0.75      0.79   1075225
+
+    accuracy                           0.77   1833143
+   macro avg       0.76      0.77      0.76   1833143
+weighted avg       0.78      0.77      0.77   1833143
 ```
+
 
 ```
 Performance socialCARDS:
@@ -47,33 +93,4 @@ Testing data (unseen twitter/facebook handles):
     accuracy                           0.78    366876
    macro avg       0.79      0.79      0.78    366876
 weighted avg       0.80      0.78      0.78    366876
-
-
-```
-```
-Performance tweetyCARDS:
-
-Validation data:
-
-              precision    recall  f1-score   support
-
-           0       0.90      0.92      0.91    357773
-           1       0.94      0.92      0.93    433777
-
-    accuracy                           0.92    791550
-   macro avg       0.92      0.92      0.92    791550
-weighted avg       0.92      0.92      0.92    791550
-
-
-
-Testing data (unseen twitter handles):
-
-              precision    recall  f1-score   support
-
-           0       0.73      0.85      0.79    142178
-           1       0.90      0.81      0.85    231942
-
-    accuracy                           0.83    374120
-   macro avg       0.82      0.83      0.82    374120
-weighted avg       0.84      0.83      0.83    37412
 ```
