@@ -1,6 +1,8 @@
-# Data and trained classifiers
-data/**
-*.pkl
+# Data and obsolete code
+data/
+code/backup/
+# Trained classifiers
+#*.pkl
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -131,6 +133,3 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-
-# Junk code folder
-code/backup/
