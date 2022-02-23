@@ -69,6 +69,17 @@ def remove_multiple_spaces(text):
     '''
     return re.sub(r'\s{2,}', ' ', text)
 
+def remove_urls(text):
+    '''
+    Remove urls from a text string.
+
+    Args:
+        text (str): Text string
+    
+    Returns:
+        str: Text string without urls.
+    '''
+    return re.sub(r'http\S+', ' ', text)
 
 def denoise_text(text):
     '''
@@ -85,4 +96,5 @@ def denoise_text(text):
     text_no_ascii = remove_non_ascii(text_no_square)
     text_no_under = strip_underscores(text_no_ascii)
     text_no_multiple = remove_multiple_spaces(text_no_under)
-    return text_no_multiple.strip()
+    text_no_url = remove_urls(text_no_multiple)
+    return text_no_url.strip()
