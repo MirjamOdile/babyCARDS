@@ -3,7 +3,9 @@
 This repository makes available the code to train binary logistic classifiers to distinguish between climate change **contrarian** (1) versus **convinced** (0) written text. It has been trained on documents by know contrarian and convinced actors. Specifically, three classifiers have been trained, namely
 
 i) **babyCARDS**: a binary logistic classifier on complete documents by various blog-posts, twitter and facebook posts and newspaper articles,
+
 ii) **sentenceCARDS**: a binary logistic classifier trained on the same data as babyCARDS at the sentence level, and
+
 iii) **socialCARDS**: a binary logistic classifier only trained twitter and facebook posts.
 
 
