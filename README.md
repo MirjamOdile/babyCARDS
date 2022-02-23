@@ -1,6 +1,10 @@
 # babyCARDS: Binary computer-assisted recognition of (climate change) contrarian speech
 
-This repository makes available the code to train binary logistic classifiers to distinguish between climate change **contrarian** (1) versus **convinced** (0) written text. It has been trained on documents by know contrarian and convinced actors. Specifically, three classifiers have been trained, namely
+This repository makes available the code to train binary logistic classifiers to distinguish between climate change **contrarian** (1) and **convinced** (0) written text. It has been trained on a corpus of documents by known contrarian and convinced actors and organisations. 
+
+<br>
+
+Specifically, three classifiers have been trained, namely
 
 i) **babyCARDS**: a binary logistic classifier on complete documents by various blog-posts, twitter and facebook posts and newspaper articles,
 
@@ -8,6 +12,11 @@ ii) **sentenceCARDS**: a binary logistic classifier trained on the same data as 
 
 iii) **socialCARDS**: a binary logistic classifier only trained twitter and facebook posts.
 
+<br>
+
+Classifier performance was assessed on a **held out testing data set** containing only text from "unseen" sources, i.e. bloggers, facebook users, twitter users and newspaper articles that the classifiers have not been trained on, providing an insight into external validity.
+
+<br>
 
 ```
 Performance babyCARDS:
@@ -25,7 +34,7 @@ weighted avg       0.89      0.89      0.89   1107565
 
 
 
-Testing data (unseen handles/news articles):
+Testing data (unseen bloggers, facebook users, twitter users and newspaper articles):
 
               precision    recall  f1-score   support
 
@@ -36,7 +45,7 @@ Testing data (unseen handles/news articles):
    macro avg       0.80      0.80      0.79    402853
 weighted avg       0.81      0.79      0.79    402853
 ```
-
+<br>
 
 ```
 Performance sentenceCARDS:
@@ -54,7 +63,7 @@ weighted avg       0.80      0.80      0.80   3599254
 
 
 
-Testing data (unseen handles/news articles):
+Testing data (unseen bloggers, facebook users, twitter users and newspaper articles):
 
               precision    recall  f1-score   support
 
@@ -65,7 +74,7 @@ Testing data (unseen handles/news articles):
    macro avg       0.76      0.77      0.76   1833143
 weighted avg       0.78      0.77      0.77   1833143
 ```
-
+<br>
 
 ```
 Performance socialCARDS:
@@ -83,7 +92,7 @@ weighted avg       0.90      0.90      0.90   1031737
 
 
 
-Testing data (unseen twitter/facebook handles):
+Testing data (unseen facebook and twitter users):
 
               precision    recall  f1-score   support
 
