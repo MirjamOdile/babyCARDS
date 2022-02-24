@@ -16,7 +16,7 @@ This repository shares multiple binary logistic classifiers to distinguish betwe
       + [Twitter](#twitter)
       + [Facebook](#facebook)
       + [Newspapers](#newspapers)
-  * [Thanks](#thanks)
+  * [Thanks ⭐🌟](#thanks)
 <br>
 
 ## Classifiers
@@ -243,7 +243,7 @@ The columns **N** display the total document counts used for babyCARDS, sentence
 #### NGOs
 
 | Convinced	(0)	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CR | Contrarian (1) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CR |
-|---------------------------|-----:|-----:|------------|--:|---:|
+|:--------------------------|-----:|-----:|:-----------|--:|---:|
 | 350.org                   | 2718 | 2131 |            |   |    |
 | c2es.org                  |  106 |  105 |            |   |    |
 | ceres.org                 |  231 |  231 |            |   |    |
@@ -288,8 +288,8 @@ The columns **N** display the total document counts used for babyCARDS, sentence
 
 #### Twitter
 
-| Convinced	(0)	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CR | Contrarian (1) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CR |
-|-----------------------------------|-------:|------:|----------------------------------------------|-------:|------:|
+| Convinced	(0)                     |      N |    CR | Contrarian (1)                               |      N |    CR |
+|:----------------------------------|-------:|------:|:---------------------------------------------|-------:|------:|
 | Al Gore                           |   2775 |  1143 | ACSH                                         |   1654 |    10 |
 | Bill McKibben                     |  26466 |  3684 | AEI                                          |  21920 |    71 |
 | Bloomberg Green                   |  24073 |  5464 | Activist Post                                | 152940 |   854 |
@@ -353,8 +353,8 @@ The columns **N** display the total document counts used for babyCARDS, sentence
 
 #### Facebook
 
-| Convinced	(0)	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CR | Contrarian (1) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CR |
-|-------------------------------|-------:|-----:|-----------------------------------------------------------------|-------:|-----:|
+| Convinced	(0)                 |      N |   CR | Contrarian (1)                                                  |      N |   CR |
+|:------------------------------|-------:|-----:|:----------------------------------------------------------------|-------:|-----:|
 | Al Gore                       |    967 |  514 | Acton Institute                                                 |   9569 |   68 |
 | Bloomberg Green               |  11007 | 2048 | American Council on Science and Health                          |   8028 |   38 |
 | Carbon Brief                  |   2136 | 1084 | American Enterprise Institute                                   |   5847 |   27 |
@@ -405,10 +405,10 @@ The columns **N** display the total document counts used for babyCARDS, sentence
 #### Newspapers
 
 | Convinced	(0)	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CR | Contrarian (1) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CR |
-|---------------------|-----:|-----:|----------------------------------------------|-----:|-----:|
-| The Conversation    | 1099 | 1028 | Daily Telegraph                              |  746 |  613 |
-| The Guardian        | 2192 | 2018 | Herald-Sun                                   |  467 |  275 |
-| The Washington Post | 2197 | 1840 | The Australian                               | 2276 | 1874 |
+|:--------------------|-----:|-----:|:------------------|-----:|-----:|
+| The Conversation    | 1099 | 1028 | Daily Telegraph   |  746 |  613 |
+| The Guardian        | 2192 | 2018 | Herald-Sun        |  467 |  275 |
+| The Washington Post | 2197 | 1840 | The Australian    | 2276 | 1874 |
 
 
 ## Thanks
