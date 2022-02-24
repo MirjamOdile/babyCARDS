@@ -14,7 +14,12 @@ iii) **socialCARDS**: a binary logistic classifier only trained twitter and face
 
 <br>
 
-Classifier performance was assessed on a **held out testing data set** containing only text from "unseen" sources, i.e. bloggers, twitter accounts, facebook accounts and newspaper articles that the classifiers have not been trained on, providing an insight into external validity.
+The trained classifiers can be downloaded [here](https://drive.google.com/drive/folders/1dNF6gFELorob8KipqlQwrphRrnrxKxRU?usp=sharing).
+
+<br>
+
+## Classifier performance
+Classifier performance was assessed on a **held out** testing data set containing only text from "unseen" sources, i.e. bloggers, twitter accounts, facebook accounts and newspaper articles that the classifiers have not been trained on, providing an insight into external validity.
 
 <br>
 
