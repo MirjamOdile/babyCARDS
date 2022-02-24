@@ -405,14 +405,11 @@ The columns **N** display the total document counts used for babyCARDS, sentence
 #### Newspapers
 
 | Convinced	(0)	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CR | Contrarian (1) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CR |
-|---------------------|-----:|-----:|----------------------------------------------|-----:|--:|
-| The Conversation    | 1099 | 1028 | Daily Telegraph                              |  399 | 315 |
-| The Guardian        | 2192 | 2018 | Daily Telegraph - Online                     |  347 | 298 |
-| The Washington Post | 2197 | 1840 | Herald-Sun                                   |  467 | 275 |
-|                     |      |      | The Australian                               | 1162 | 935 |
-|                     |      |      | The Australian - Online                      | 1102 | 930 |
-|                     |      |      | The Australian - Weekend Australian Magazine |    8 |   6 |
-|                     |      |      | The Australian - Wish Magazine               |    4 |   3 |
+|---------------------|-----:|-----:|----------------------------------------------|-----:|-----:|
+| The Conversation    | 1099 | 1028 | Daily Telegraph                              |  746 |  613 |
+| The Guardian        | 2192 | 2018 | Herald-Sun                                   |  467 |  275 |
+| The Washington Post | 2197 | 1840 | The Australian                               | 2276 | 1874 |
+
 
 ## Thanks
 
