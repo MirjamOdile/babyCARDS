@@ -8,9 +8,11 @@ Specifically, three classifiers have been trained, namely
 
 i) **babyCARDS**: a binary logistic classifier on complete documents by various blog-posts, twitter and facebook posts and newspaper articles,
 
-ii) **sentenceCARDS**: a binary logistic classifier trained on the same data as babyCARDS at the sentence level, and
+ii) **climatebabyCARDS**: a binary logistic classifier on a subset on the documents in i) that mention the keywords *climate* or *global warming*,
 
-iii) **socialCARDS**: a binary logistic classifier only trained twitter and facebook posts.
+iii) **sentenceCARDS**: a binary logistic classifier trained on the documents in i) at the sentence level, and
+
+iv) **socialCARDS**: a binary logistic classifier only trained twitter and facebook posts.
 
 <br>
 
@@ -49,6 +51,35 @@ Testing data (unseen bloggers, twitter accounts, facebook accounts and newspaper
     accuracy                           0.79    402853
    macro avg       0.80      0.80      0.79    402853
 weighted avg       0.81      0.79      0.79    402853
+```
+<br>
+
+```
+Performance climatebabyCARDS:
+
+Validation data:
+
+              precision    recall  f1-score   support
+
+           0       0.93      0.94      0.94     69659
+           1       0.93      0.92      0.92     56967
+
+    accuracy                           0.93    126626
+   macro avg       0.93      0.93      0.93    126626
+weighted avg       0.93      0.93      0.93    126626
+
+
+
+Testing data (unseen bloggers, twitter accounts, facebook accounts and newspaper articles):
+
+              precision    recall  f1-score   support
+
+           0       0.71      0.93      0.81     24090
+           1       0.95      0.75      0.84     37052
+
+    accuracy                           0.82     61142
+   macro avg       0.83      0.84      0.82     61142
+weighted avg       0.85      0.82      0.83     61142
 ```
 <br>
 
