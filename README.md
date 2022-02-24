@@ -6,7 +6,7 @@ This repository makes available the code to train binary logistic classifiers to
 
 Specifically, three classifiers have been trained, namely
 
-i) **babyCARDS**: a binary logistic classifier on complete documents by various blog-posts, twitter and facebook posts and newspaper articles,
+i) **babyCARDS**: a binary logistic classifier on complete documents by various blog/ngo/thinktank-posts, twitter and facebook posts and newspaper articles,
 
 ii) **climatebabyCARDS**: a binary logistic classifier on a subset on the documents in i) that mention the keywords *climate* or *global warming*,
 
@@ -21,7 +21,7 @@ The trained classifiers can be downloaded [here](https://drive.google.com/drive/
 <br>
 
 ## Classifier performance
-Classifier performance was assessed on a **held out** testing data set containing only text from "unseen" sources, i.e. bloggers, twitter accounts, facebook accounts and newspaper articles that the classifiers have not been trained on, providing an insight into external validity.
+Classifier performance was assessed on a **held out** testing data set containing only text from "unseen" sources, i.e. organisations, twitter accounts, facebook accounts and newspaper articles that the classifiers have not been trained on, providing an insight into external validity.
 
 <br>
 
@@ -41,7 +41,7 @@ weighted avg       0.89      0.89      0.89   1107565
 
 
 
-Testing data (unseen bloggers, twitter accounts, facebook accounts and newspaper articles):
+Testing data (unseen organisations, twitter accounts, facebook accounts and newspaper articles):
 
               precision    recall  f1-score   support
 
@@ -70,7 +70,7 @@ weighted avg       0.93      0.93      0.93    126626
 
 
 
-Testing data (unseen bloggers, twitter accounts, facebook accounts and newspaper articles):
+Testing data (unseen organisations, twitter accounts, facebook accounts and newspaper articles):
 
               precision    recall  f1-score   support
 
@@ -99,7 +99,7 @@ weighted avg       0.80      0.80      0.80   3599254
 
 
 
-Testing data (unseen bloggers, twitter accounts, facebook accounts and newspaper articles):
+Testing data (unseen organisations, twitter accounts, facebook accounts and newspaper articles):
 
               precision    recall  f1-score   support
 
