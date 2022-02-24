@@ -9,12 +9,13 @@ This repository shares multiple binary logistic classifiers to distinguish betwe
   * [Classifier performance](#classifier-performance)
   * [Data](#data)
     + [Summary](#summary)
-    + [Blogs](#blogs)
-    + [NGOs](#ngos)
-    + [Thinktanks](#thinktanks)
-    + [Twitter](#twitter)
-    + [Facebook](#facebook)
-    + [Newspapers](#newspapers)
+    + [Sources](#sources)
+      + [Blogs](#blogs)
+      + [NGOs](#ngos)
+      + [Thinktanks](#thinktanks)
+      + [Twitter](#twitter)
+      + [Facebook](#facebook)
+      + [Newspapers](#newspapers)
   * [Thanks](#thanks)
 <br>
 
@@ -159,13 +160,9 @@ weighted avg       0.80      0.78      0.78    366876
 
 ## Data
 
-The following tables summarise the documents used to train the different classifiers. Each table provides document counts per organisation/actor for a different medium (blog, thinktank, ngo, twitter, facebook, newspaper) by side (convinced/contrarian). 
-
-The columns **N** display the total document counts used for babyCARDS, sentenceCARDS and socialCARDS (limited to the twitter and facebook table), whereas the columns **CR** show the climate related document counts used for the climatebabyCARDS classifier.
-
 ### Summary
 
-| All posts/articles (N)  |           0 |           1 |       **∑** | | Climate related (CR) |          0 |          1 |      **∑** |
+| All posts/articles (N)  |   Convinced |  Contrarian |       **∑** | | Climate related (CR) |  Convinced | Contrarian |      **∑** |
 |-------------------------|------------:|------------:|------------:|-|----------------------|-----------:|-----------:|-----------:|
 | blog/thinktank/ngo      |      110773 |      219535 |  **330308** | | blog/thinktank/ngo   |      54748 |     112068 | **166816** |
 | facebook                |      527951 |      425551 |  **953502** | | facebook             |      44231 |      31055 |  **75286** |
@@ -173,7 +170,14 @@ The columns **N** display the total document counts used for babyCARDS, sentence
 | twitter                 |     1573621 |     1966699 | **3540320** | | twitter              |     199641 |     118247 | **317888** |
 | **∑**                   | **2217833** | **2615274** | **4833107** | | **∑**                | **303506** | **264132** | **567638** |
 
-### Blogs
+
+### Sources
+
+The following tables summarise the documents used to train the different classifiers. Each table provides document counts per organisation/actor for a different medium (blog, thinktank, ngo, twitter, facebook, newspaper) by side (convinced/contrarian). 
+
+The columns **N** display the total document counts used for babyCARDS, sentenceCARDS and socialCARDS (limited to the twitter and facebook table), whereas the columns **CR** show the climate related document counts used for the climatebabyCARDS classifier.
+
+#### Blogs
 
 | Convinced	(0)	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CR | Contrarian (1) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CR |
 |:-----------------------------|------:|------:|:----------------------------|------:|------:|
@@ -236,7 +240,7 @@ The columns **N** display the total document counts used for babyCARDS, sentence
 |                              |       |       | wuwt                        | 12676 |  9550 |
 
 
-### NGOs
+#### NGOs
 
 | Convinced	(0)	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CR | Contrarian (1) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CR |
 |---------------------------|-----:|-----:|------------|--:|---:|
@@ -259,7 +263,7 @@ The columns **N** display the total document counts used for babyCARDS, sentence
 | wri.org                   | 2615 | 1992 |            |   |    |
 
 
-### Thinktanks
+#### Thinktanks
 
 | Convinced	(0)	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CR | Contrarian (1) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CR |
 |:---------------|-----:|-----:|:------------------------|------:|-----:|
@@ -282,7 +286,7 @@ The columns **N** display the total document counts used for babyCARDS, sentence
 |                |      |      |            sppiblog.org |  1490 | 1454 |
 
 
-### Twitter
+#### Twitter
 
 | Convinced	(0)	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CR | Contrarian (1) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CR |
 |-----------------------------------|-------:|------:|----------------------------------------------|-------:|------:|
@@ -347,7 +351,7 @@ The columns **N** display the total document counts used for babyCARDS, sentence
 |                                   |        |       | 🌹 ELIANA BENADOR 🌹                          |    993 |     1 |
 
 
-### Facebook
+#### Facebook
 
 | Convinced	(0)	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CR | Contrarian (1) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CR |
 |-------------------------------|-------:|-----:|-----------------------------------------------------------------|-------:|-----:|
@@ -398,7 +402,7 @@ The columns **N** display the total document counts used for babyCARDS, sentence
 |                               |        |      | wattsupwiththat                                                 |  15652 | 8416 |
 
 
-### Newspapers
+#### Newspapers
 
 | Convinced	(0)	&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CR | Contrarian (1) &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; N | &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; CR |
 |---------------------|-----:|-----:|----------------------------------------------|-----:|--:|
