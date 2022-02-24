@@ -237,7 +237,7 @@ The columns **N** display the total document counts used for babyCARDS, sentence
 | Climate Council                   |  20347 |  9237 | Bjorn Lomborg                                |   6723 |  1886 |
 | Climate Power                     |  36997 | 11266 | Breitbart News                               | 143929 |   617 |
 | Climate Tracker                   |  10932 |  4436 | CFACT                                        |   7616 |  2685 |
-| Dr. Ayana Elizabeth Johnson 🐙     |     27 |     5 | Capital Research                             |   4655 |   118 |
+| Dr. Ayana Elizabeth Johnson 🐙    |     27 |     5 | Capital Research                             |   4655 |   118 |
 | Dr. Genevieve Guenther            |  35872 |  8479 | Cato Institute                               |  55279 |   548 |
 | Dr. Kim Cobb                      |   6352 |  1336 | CatoTheYounger                               |  80847 |  1540 |
 | EDF                               |  29661 |  8687 | Climate Realists                             |   3158 |   553 |
@@ -260,11 +260,11 @@ The columns **N** display the total document counts used for babyCARDS, sentence
 | Prof Michael E. Mann              |  63105 | 15607 | Marc Morano                                  |   6775 |  1970 |
 | Prof. Katharine Hayhoe            |  39969 |  7865 | Matt Ridley                                  |  11633 |   439 |
 | Project Drawdown                  |   2677 |  1241 | Michael Shellenberger                        |  10527 |   811 |
-| Sunrise Movement 🌅                |  12457 |  3438 | Mike Jagger                                  |  49428 |  5202 |
+| Sunrise Movement 🌅               |  12457 |  3438 | Mike Jagger                                  |  49428 |  5202 |
 | The Conversation                  |  62156 |  1870 | Mr. Ross                                     |  43943 |  2825 |
 | The Ecologist                     |  18589 |  2850 | Naomi Seibt                                  |   1952 |   120 |
 | The Guardian                      | 329360 |  2983 | National Center                              |   6545 |   429 |
-| The Nature Conservancy            |  27314 |  2916 | Nigella™️ (Gab🐸 @ Nigella - Parler @ Nigella) |  42135 |   434 |
+| The Nature Conservancy            |  27314 |  2916 | Nigella™️                                    |  42135 |   434 |
 | The Washington Post               | 133800 |  1136 | ORWELL WAS RIGHT                             |  28495 |  1630 |
 | Treehugger.com                    |  51727 |  1951 | PRI                                          |  11008 |    93 |
 | UN Climate Change                 |  20713 | 11616 | Patrick Moore                                |  22721 |  4963 |
@@ -310,7 +310,7 @@ The columns **N** display the total document counts used for babyCARDS, sentence
 | Grist.org                     |  27765 | 4130 | Competitive Enterprise Institute                                |   5246 |  295 |
 | HuffPost                      | 116126 |  349 | Discovery Institute                                             |   2296 |   21 |
 | IPCC                          |   2626 | 1264 | Ethan Allen Institute                                           |   2297 |  130 |
-| Katharine Hayhoe              |   1309 |  969 | FREE - Foundation for Research on Economics and the Environment |     25 |    1 |
+| Katharine Hayhoe              |   1309 |  969 | Fdtn. for Research on Economics and the Environment             |     25 |    1 |
 | Michael E. Mann               |   7865 | 5419 | Fox News                                                        |  90708 |  336 |
 | NASA Climate Change           |   1814 |  786 | FreedomWorks                                                    |  11083 |   73 |
 | Naomi Klein                   |   2330 |  240 | Friends of Science                                              |   9874 | 3459 |
