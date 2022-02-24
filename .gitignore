@@ -1,7 +1,9 @@
 # Data
 data/
 # Trained classifiers
-*.pkl
+classifiers/
+# Miscellaneous
+misc/
 # Backup code
 code/backup/
 # babycontent preprocessing code and data
