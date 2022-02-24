@@ -4,11 +4,6 @@ data/
 classifiers/
 # Miscellaneous
 misc/
-# Backup code
-code/backup/
-# babycontent preprocessing code and data
-babycontentprep/
-
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
