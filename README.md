@@ -5,6 +5,7 @@ This repository shares multiple binary logistic classifiers to distinguish betwe
 
 # Contents
   * [Classifiers](#classifiers)
+    + [Download](#download)
   * [Classifier performance](#classifier-performance)
   * [Data](#data)
     + [Blogs](#blogs)
@@ -27,8 +28,9 @@ ii) **climatebabyCARDS**: a binary logistic classifier on a subset on the docume
 iii) **sentenceCARDS**: a binary logistic classifier trained on the documents in i) at the sentence level, and
 
 iv) **socialCARDS**: a binary logistic classifier only trained twitter and facebook posts.
-
 <br>
+
+### Download
 
 The trained classifiers can be downloaded [here](https://drive.google.com/drive/folders/1dNF6gFELorob8KipqlQwrphRrnrxKxRU?usp=sharing).
 
