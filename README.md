@@ -8,6 +8,7 @@ This repository shares multiple binary logistic classifiers to distinguish betwe
     + [Download](#download)
   * [Classifier performance](#classifier-performance)
   * [Data](#data)
+    + [Summary](#summary)
     + [Blogs](#blogs)
     + [NGOs](#ngos)
     + [Thinktanks](#thinktanks)
@@ -21,13 +22,13 @@ This repository shares multiple binary logistic classifiers to distinguish betwe
 
 Four classifiers have been trained, namely
 
-i) **babyCARDS**: a binary logistic classifier on complete documents by various blog/ngo/thinktank posts, twitter and facebook posts and newspaper articles,
+1) **babyCARDS**: a binary logistic classifier on complete documents by various blog/ngo/thinktank posts, twitter and facebook posts and newspaper articles (N = 4,833,107 posts/articles),
 
-ii) **climatebabyCARDS**: a binary logistic classifier on a subset on the documents in i) that mention the keywords *climate* or *global warming*,
+2) **climatebabyCARDS**: a binary logistic classifier on a subset on the documents in 1) that mention the keywords *climate* or *global warming* (N = 567,638 posts/articles),
 
-iii) **sentenceCARDS**: a binary logistic classifier trained on the documents in i) at the sentence level, and
+3) **sentenceCARDS**: a binary logistic classifier trained on the documents in 1) at the sentence level, and
 
-iv) **socialCARDS**: a binary logistic classifier only trained twitter and facebook posts.
+4) **socialCARDS**: a binary logistic classifier only trained twitter and facebook posts (N = 4,493,822 posts).
 <br>
 
 ### Download
@@ -162,6 +163,15 @@ The following tables summarise the documents used to train the different classif
 
 The columns **N** display the total document counts used for babyCARDS, sentenceCARDS and socialCARDS (limited to the twitter and facebook table), whereas the columns **CR** show the climate related document counts used for the climatebabyCARDS classifier.
 
+### Summary
+
+| All posts/articles (N)  |           0 |           1 |       **∑** | | Climate related (CR) |          0 |          1 |      **∑** |
+|-------------------------|------------:|------------:|------------:|-|----------------------|-----------:|-----------:|-----------:|
+| blog/thinktank/ngo      |      110773 |      219535 |  **330308** | | blog/thinktank/ngo   |      54748 |     112068 | **166816** |
+| facebook                |      527951 |      425551 |  **953502** | | facebook             |      44231 |      31055 |  **75286** |
+| newspaper               |        5488 |        3489 |    **8977** | | newspaper            |       4886 |       2762 |   **7648** |
+| twitter                 |     1573621 |     1966699 | **3540320** | | twitter              |     199641 |     118247 | **317888** |
+| **∑**                   | **2217833** | **2615274** | **4833107** | | **∑**                | **303506** | **264132** | **567638** |
 
 ### Blogs
 
