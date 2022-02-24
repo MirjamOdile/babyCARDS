@@ -1,7 +1,7 @@
 # babyCARDS: Binary computer-assisted recognition of (climate change) contrarian speech
 *Detecting climate change contrarian language.*
 
-This repository shares multiple binary logistic classifiers to distinguish between climate change **contrarian** and **convinced** written text. It has been trained on a corpus of documents by known contrarian and convinced actors and organisations. 
+This repository shares multiple binary logistic classifiers to distinguish between climate change **contrarian** and **convinced** written text. It has been trained on a large corpus of documents by known contrarian and convinced actors and organisations. 
 
 # Contents
   * [Classifiers](#classifiers)
@@ -400,4 +400,4 @@ The columns **N** display the total document counts used for babyCARDS, sentence
 
 ## Thanks
 
-Thanks to Constantine Boussalis, Travis Coan and John Cook for their collaboration and their contributions to the data and code! ⭐🌟 
+Thanks to Constantine Boussalis, Travis Coan, John Cook and Mohit Gupta for their collaboration and their contributions to the data and code! ⭐🌟 
