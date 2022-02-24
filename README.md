@@ -1,12 +1,26 @@
 # babyCARDS: Binary computer-assisted recognition of (climate change) contrarian speech
+*Detecting climate change contrarian language.*
 
-This repository makes available the code to train binary logistic classifiers to distinguish between climate change **contrarian** (1) and **convinced** (0) written text. It has been trained on a corpus of documents by known contrarian and convinced actors and organisations. 
+This repository shares multiple binary logistic classifiers to distinguish between climate change **contrarian** and **convinced** written text. It has been trained on a corpus of documents by known contrarian and convinced actors and organisations. 
 
+# Contents
+  * [Classifiers](#classifiers)
+  * [Classifier performance](#classifier-performance)
+  * [Data](#data)
+    + [Blogs](#blogs)
+    + [NGOs](#ngos)
+    + [Thinktanks](#thinktanks)
+    + [Twitter](#twitter)
+    + [Facebook](#facebook)
+    + [Newspapers](#newspapers)
+  * [Thanks](#thanks)
 <br>
 
-Specifically, three classifiers have been trained, namely
+## Classifiers
 
-i) **babyCARDS**: a binary logistic classifier on complete documents by various blog/ngo/thinktank-posts, twitter and facebook posts and newspaper articles,
+Four classifiers have been trained, namely
+
+i) **babyCARDS**: a binary logistic classifier on complete documents by various blog/ngo/thinktank posts, twitter and facebook posts and newspaper articles,
 
 ii) **climatebabyCARDS**: a binary logistic classifier on a subset on the documents in i) that mention the keywords *climate* or *global warming*,
 
@@ -383,3 +397,7 @@ The columns **N** display the total document counts used for babyCARDS, sentence
 |                     |      |      | The Australian - Online                      | 1102 | 930 |
 |                     |      |      | The Australian - Weekend Australian Magazine |    8 |   6 |
 |                     |      |      | The Australian - Wish Magazine               |    4 |   3 |
+
+## Thanks
+
+Thanks to Constantine Boussalis, Travis Coan and John Cook for their collaboration and their contributions to the data and code! ⭐🌟 
