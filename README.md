@@ -23,13 +23,15 @@ This repository shares multiple binary logistic classifiers to distinguish betwe
 
 Four classifiers have been trained, namely
 
-1) **babyCARDS**: a binary logistic classifier on complete documents by various blog/ngo/thinktank posts, twitter and facebook posts and newspaper articles (N = 4,833,107 posts/articles),
+1) **babyCARDS**: a binary logistic classifier on the complete corpus, i.e. blog/ngo/thinktank posts, twitter posts, facebook posts and newspaper articles (N = 4,833,107 posts/articles),
 
-2) **climatebabyCARDS**: a binary logistic classifier on a subset on the documents in 1) that mention the keywords *climate* or *global warming* (N = 567,638 posts/articles),
+2) **climatebabyCARDS**: a binary logistic classifier on a subset of the documents in 1) that mention the keywords *climate* or *global warming* (N = 567,638 posts/articles),
 
-3) **sentenceCARDS**: a binary logistic classifier trained on the documents in 1) at the sentence level, and
+3) **climatenewsbabyCARDS**: a binary logistic classifier on a subset the blog/ngo/thinktank posts and newspaper articles that mention a climate change or energy related keyword (N = 121,523 posts/articles),
 
-4) **socialCARDS**: a binary logistic classifier only trained twitter and facebook posts (N = 4,493,822 posts).
+4) **sentenceCARDS**: a binary logistic classifier trained on the documents in 1) at the sentence level, and
+
+5) **socialCARDS**: a binary logistic classifier only trained twitter and facebook posts (N = 4,493,822 posts).
 <br>
 
 ### Download
@@ -98,6 +100,63 @@ Testing data (unseen organisations, twitter accounts, facebook accounts and news
     accuracy                           0.82     61142
    macro avg       0.83      0.84      0.82     61142
 weighted avg       0.85      0.82      0.83     61142
+```
+<br>
+
+```
+Performance climatenewsbabyCARDS:
+
+Validation data:
+
+              precision    recall  f1-score   support
+
+           0       0.92      0.91      0.91     14668
+           1       0.95      0.95      0.95     25841
+
+    accuracy                           0.94     40509
+   macro avg       0.93      0.93      0.93     40509
+weighted avg       0.94      0.94      0.94     40509
+
+
+
+Testing data (unseen bloggers and newspaper articles):
+
+              precision    recall  f1-score   support
+
+           0       0.93      0.91      0.92      7337
+           1       0.94      0.95      0.95     11443
+
+    accuracy                           0.94     18780
+   macro avg       0.93      0.93      0.93     18780
+weighted avg       0.94      0.94      0.94     18780
+
+
+---
+
+
+Validation data (limited to newspaper articles):
+
+              precision    recall  f1-score   support
+
+           0       0.96      0.84      0.90      1153
+           1       0.78      0.94      0.86       691
+
+    accuracy                           0.88      1844
+   macro avg       0.87      0.89      0.88      1844
+weighted avg       0.89      0.88      0.88      1844
+
+
+
+Testing data (limited to newspaper articles):
+
+              precision    recall  f1-score   support
+
+           0       0.95      0.82      0.88       805
+           1       0.76      0.93      0.84       496
+
+    accuracy                           0.86      1301
+   macro avg       0.86      0.88      0.86      1301
+weighted avg       0.88      0.86      0.87      1301
 ```
 <br>
 
@@ -414,6 +473,9 @@ The columns **N** display the total document counts used for babyCARDS, sentence
 | The Guardian        | 2192 | 2018 | Herald-Sun        |  467 |  275 |
 | The Washington Post | 2197 | 1840 | The Australian    | 2276 | 1874 |
 
+## Note
+
+The newly added classifier for climate-related news articles **climatenewsbabyCARDS** includes some improvements: 1) a script to estimate the best regularisation strength C to avoid overfitting, 2) an extra tokenisation step providing better tokenisation than simply relying on the TfidfVectorizer tokenisation, 3) a function to investigate the most informative features of the trained classifier or for a specific text, and 4) a new script providing the inference code. These changes still need to be implemented for the remaining classifiers. 
 
 ## Thanks
 
